@@ -2,7 +2,7 @@ Small interactive fiction game && engine I built while going through [Learn Pyth
 
 I went a bit beyond the basic exercise and read the first 70 or so pages of [Creating Interactive Fiction With Inform 7](http://www.amazon.com/Creating-Interactive-Fiction-Inform-7/dp/1435455061) for inspiration to make it better.
 
-Basic premise has some shades of similarity to Zork I, which I'll admit I haven't played in twenty years or so (shades I say!)
+Basic premise has some shades of similarity to Zork I, which I'll admit I haven't played in twenty years or so (shades I say!).  It does involve a troll who will try to kill you, there is a lamp somewhere which you will need, and it is winnable.
 
 Game Engine Features:
 * Easily buildable map, linking rooms together by orientation with the ability to place items and characters.  Reference map.py for an example.
@@ -12,4 +12,4 @@ Game Engine Features:
 * A Room object which can have a description, exits, and contain items and characters
 * An Item object, ContainerItem object, and Weapon object
 
-Basic premise has some shades of similarity to Zork I, which I'll admit I haven't played in twenty years or so (shades I say!).  It does involve a troll who will try to kill you, there is a lamp somewhere which you will need, and it is winnable.
+

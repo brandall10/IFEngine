@@ -6,7 +6,7 @@ Basic premise has some shades of similarity to Zork I, which I'll admit I haven'
 
 Game Engine Features:
 * Easily buildable map, linking rooms together by orientation with the ability to place items and characters.  Reference map.py for an example.
-* Basic parser which understands <command>, <command><object>, and <command><object>*<source/destination>.  Ex. 'look', 'open bag', 'add matches to bag'
+* Basic parser which understands [command], [command->object], and [command->object->source/destination].  Ex. 'look', 'open bag', 'add matches to bag'
 * Player object which can carry items, manipulate items, move through the map, interact with other characters (attack so far), have a health that can be depleted, killed... and that's about it.
 * Person object which can do much of the same as a player except with a very limited AI (randomly moves and interacts within a confined set of rooms)
 * A Room object which can have a description, exits, and contain items and characters
